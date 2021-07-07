@@ -8,8 +8,11 @@ Group:		Development/Python
 License:	BSD
 Url:		https://pypi.org/project/ruamel.yaml/
 Source0:	https://files.pythonhosted.org/packages/source/r/ruamel.yaml/ruamel.yaml-%{version}.tar.gz
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python3dist(setuptools)
 BuildRequires:	python3dist(pip)
+BuildRequires:	python3dist(cython)
+BuildRequires:	python3dist(wheel)
 
 %description
 Python library for loading and dumping YAML 1.2
