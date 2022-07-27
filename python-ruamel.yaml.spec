@@ -21,8 +21,8 @@ Python library for loading and dumping YAML 1.2
 %{py_puresitedir}/ruamel
 %{py_puresitedir}/ruamel.yaml*.dist-info
 %{py_puresitedir}/*.pth
-%{py_platsitedir}/ruamel.yaml.clib*
-%{py_platsitedir}/_ruamel_yaml*.so
+#{py_platsitedir}/ruamel.yaml.clib*
+#{py_platsitedir}/_ruamel_yaml*.so
 
 #------------------------------------------------------------
 %prep
