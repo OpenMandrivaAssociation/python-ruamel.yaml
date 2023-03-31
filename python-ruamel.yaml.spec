@@ -3,7 +3,7 @@
 Summary:	Python library for loading and dumping YAML 1.2
 Name:		python-ruamel.yaml
 Version:	0.17.10
-Release:	2
+Release:	3
 Group:		Development/Python
 License:	BSD
 Url:		https://pypi.org/project/ruamel.yaml/
